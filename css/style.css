@@ -1,0 +1,37 @@
+#map {
+    min-height: 500px;
+    width: 100%;
+    height: 100%
+}
+
+.dropdown-content {
+    width: 10%!important;
+    height: 450px !important;
+}
+
+.jumbotron {
+    background: #4CAF50;
+    background-color: "transparent" !important;
+    background-image: none;
+}
+
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
