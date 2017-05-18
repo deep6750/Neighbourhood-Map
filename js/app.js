@@ -27,7 +27,7 @@ var myModel = {
     },
 
     filter: function (query) {
-
+        $(".dropdown-button").trigger("click");
         myModel.list.removeAll();
 
         for (var j in pointers) {
